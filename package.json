@@ -1,0 +1,28 @@
+{
+  "name": "practice1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bcryptjs": "^0.7.12",
+    "body-parser": "^1.6.2",
+    "express": "3.4.3",
+    "express-validator": "^3.2.0",
+    "forcedomain": "^0.4.0",
+    "jwt-simple": "^0.2.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.7",
+    "morgan": "^1.2.2",
+    "nodemailer": "0.7",
+    "request": "^2.40.0",
+    "socket.io": "1.3.5"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "newrelic": "^1.39.1"
+  }
+}
